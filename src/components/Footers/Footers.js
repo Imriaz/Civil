@@ -16,7 +16,6 @@ const Footers = () => {
     <div classNameName="main-container">
       <footer className="footer-area footer--light">
         <div className="footer-big">
-          {/* <!-- start .container --> */}
           <div className="container">
             <div className="row">
               <div className="col-md-3 col-sm-12">
@@ -37,7 +36,7 @@ const Footers = () => {
                       </li>
                       <li>
                         <a href="#" target="_blank">
-                          <FontAwesomeIcon icon="faFacebook"></FontAwesomeIcon>
+                          <FontAwesomeIcon icon="fa-Facebook"></FontAwesomeIcon>
                         </a>
                       </li>
                       <li>
@@ -159,7 +158,7 @@ const Footers = () => {
                     <h4 className="footer-widget-title">CLUBS</h4>
                     <ul>
                       <li>
-                        <a href="#">"BUBT IT Club</a>
+                        <a href="#">BUBT IT Club</a>
                       </li>
                       <li>
                         <a href="#">CIVIL CLUB</a>
@@ -220,7 +219,7 @@ const Footers = () => {
                           href="https://www.bubt.edu.bd/home/routines"
                           target="_blank"
                         >
-                          className Routine
+                          class Routine
                         </a>
                       </li>
                       <li>

@@ -6,19 +6,20 @@ import Contact from "./components/Contact/Contact";
 import NotFound from "./components/NotFound/NotFound";
 import Gallery from "./components/Gallery/Gallery";
 import Chairman_Message from "./components/Chairman_Message/Chairman_Message";
-import FacultyMembers from './components/FacultyMembers/FacultyMembers';
-import OurLabs from './components/OurLabs/OurLabs';
-import CivilClub from './components/CivilClub/CivilClub';
-import CareerOpportunities from './components/CareerOpportunities/CareerOpportunities';
-import Mission from './components/Mission/Mission';
-import Vision from './components/Vision/Vision';
-import Achievements from './components/Achievements/Achievements';
-import WhyCivilAtBUBT from './components/WhyCivilAtBUBT/WhyCivilAtBUBT';
+import FacultyMembers from "./components/FacultyMembers/FacultyMembers";
+import OurLabs from "./components/OurLabs/OurLabs";
+import CivilClub from "./components/CivilClub/CivilClub";
+import CareerOpportunities from "./components/CareerOpportunities/CareerOpportunities";
+import Mission from "./components/Mission/Mission";
+import Vision from "./components/Vision/Vision";
+import Achievements from "./components/Achievements/Achievements";
+import WhyCivilAtBUBT from "./components/WhyCivilAtBUBT/WhyCivilAtBUBT";
 
 import LabAssistants from "./components/LabAssistants/LabAssistants";
 import AdministrativeStaffs from "./components/AdministrativeStaffs/AdministrativeStaffs";
-import Undergraduate from './components/Undergraduate/Undergraduate';
-import Footers from './components/Footers/Footers';
+import Undergraduate from "./components/Undergraduate/Undergraduate";
+import Footers from "./components/Footers/Footers";
+import DrAliAhmed from "./components/FacultyMemberDetails/DrAliAhmed";
 
 function App() {
   return (
@@ -37,6 +38,9 @@ function App() {
           <Route path="/Gallery">
             <Gallery />
           </Route>
+          <Route path="/Undergraduate">
+            <Undergraduate />
+          </Route>
           <Route path="/ChairmanMessage">
             <Chairman_Message />
           </Route>
@@ -50,30 +54,33 @@ function App() {
             <AdministrativeStaffs />
           </Route>
           <Route path="/OurLabs">
-            <OurLabs/>
+            <OurLabs />
           </Route>
           <Route path="/CivilClub">
-            <CivilClub/>
+            <CivilClub />
           </Route>
           <Route path="/CareerOpportunities">
-            <CareerOpportunities/>
+            <CareerOpportunities />
           </Route>
           <Route path="/Vision">
-            <Vision/>
+            <Vision />
           </Route>
           <Route path="/Mission">
-            <Mission/>
+            <Mission />
           </Route>
           <Route path="/Achievements">
-            <Achievements/>
+            <Achievements />
           </Route>
           <Route path="/WhyCivilAtBUBT">
-            <WhyCivilAtBUBT/>
+            <WhyCivilAtBUBT />
+          </Route>
+          <Route path="/DrAliAhmed">
+            <DrAliAhmed />
           </Route>
           <Route path="*">
-          <Route path="/Footers">
-            <Footers/>
-          </Route>
+            <Route path="/Footers">
+              <Footers />
+            </Route>
             <NotFound />
           </Route>
         </Switch>

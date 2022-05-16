@@ -1,11 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./FacultyMembers.css";
 import Footers from "../Footers/Footers";
 import Header from "../Header/Header";
 import Faculty1 from "../../images/Faculty_image/ChairmanSir.jpg";
 import Dummy_Faculty from "../../images/Faculty_image/dummy-Faculty.png";
+import { HashLink } from "react-router-hash-link";
 
 const FacultyMembers = () => {
+  useEffect(() => {
+    document.title = "Faculty Members | Civil - BUBT";
+  }, []);
   return (
     <div>
       <Header />
@@ -70,12 +74,14 @@ const FacultyMembers = () => {
                       </a>
                     </li>
                   </ul>
-                  <button
-                    type="button"
-                    class="btn btn-primary mt-3 btn-rounded waves-effect w-md waves-light"
-                  >
-                    Details
-                  </button>
+                  <HashLink to="/DrAliAhmed">
+                    <button
+                      type="button"
+                      class="btn btn-primary mt-3 btn-rounded waves-effect w-md waves-light"
+                    >
+                      Details
+                    </button>
+                  </HashLink>
                 </div>
               </div>
             </div>
