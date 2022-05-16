@@ -12,7 +12,7 @@ const Undergraduate = () => {
             <Header />
              <h1>Program Structure</h1>
             <h5>Term Wise Course Distribution</h5> <br />
-           
+           <div className="container">
             <div className="row">
                 <div className="col-md-6 col-sm-12">
     <table class="table table-hover">
@@ -747,6 +747,7 @@ const Undergraduate = () => {
 </table>
                 </div>
                 
+</div>
 </div>
         
     <Footers />
